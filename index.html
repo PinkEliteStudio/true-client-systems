@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>True Client Systems | Honest Leads. Human Trust. Real Profit.</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
     body { font-family: 'Inter', system-ui, sans-serif; }
-    .neon-text { text-shadow: 0 0 15px rgb(34 211 238); }
-    .hero-bg { background: linear-gradient(rgba(15,23,42,0.85), rgba(15,23,42,0.85)), url('https://images.unsplash.com/photo-1557804506-669a67965ba0') center/cover no-repeat; }
   </style>
 </head>
 <body class="bg-slate-50 text-slate-900">
@@ -17,85 +17,91 @@
   <!-- HEADER -->
   <header class="bg-slate-950 text-white py-6">
     <div class="max-w-6xl mx-auto px-6 flex items-center justify-between">
-      <!-- Logo -->
       <div class="flex items-center gap-3">
         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="8" y="8" width="32" height="32" rx="8" fill="#22d3ee"/>
           <path d="M16 24L22 30L32 18" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
-        <div>
-          <span class="text-3xl font-bold tracking-tight neon-text">True Client Systems</span>
-        </div>
+        <span class="text-3xl font-bold tracking-tight text-cyan-400">True Client Systems</span>
       </div>
       <p class="text-emerald-400 font-medium">Naples, FL • Honest Lead Systems</p>
     </div>
   </header>
 
   <!-- HERO -->
-  <section class="hero-bg text-white py-24">
+  <section class="bg-gradient-to-br from-slate-900 to-slate-800 text-white py-24">
     <div class="max-w-6xl mx-auto px-6 text-center">
       <h1 class="text-5xl md:text-6xl font-bold leading-tight max-w-3xl mx-auto">
         Real Qualified Buyers.<br>
         <span class="text-emerald-400">Human Trust.</span> Systems That Scale.
       </h1>
       <p class="mt-6 text-xl max-w-2xl mx-auto">
-        I help home service owners (HVAC, plumbing, roofing, electrical) get ready-to-buy customers using 50/50 AI + real human follow-up — no frustration, no false hope.
+        I help home service owners get ready-to-buy customers using a simple 50/50 AI + human system — no hype, no frustration.
       </p>
-      <button onclick="window.location.href='mailto:pinkeliteva@gmail.com?subject=I%20want%20qualified%20buyers'" 
-              class="mt-10 bg-emerald-400 hover:bg-emerald-500 text-slate-950 font-semibold text-xl px-10 py-5 rounded-2xl transition-all shadow-xl shadow-emerald-500/30">
-        Book Your 15-Min Discovery Call
-      </button>
-      <p class="mt-6 text-sm opacity-90">No sales pitch • Only for owners who value integrity</p>
+      <div class="mt-10 flex flex-wrap gap-4 justify-center">
+        <button onclick="Calendly.showPopupWidget('https://calendly.com/pinkeliteva'); return false;" 
+                class="bg-emerald-400 hover:bg-emerald-500 text-slate-950 font-semibold text-xl px-10 py-5 rounded-2xl transition-all shadow-xl">
+          Book Your 15-Min Discovery Call
+        </button>
+      </div>
     </div>
   </section>
 
-  <!-- HOW IT WORKS - 3 CARDS -->
+  <!-- MEET RHINA + PHOTO -->
   <section class="max-w-6xl mx-auto px-6 py-20">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <img src="Rhinajas.jpg" alt="Rhina - Founder of True Client Systems" 
+             class="rounded-3xl shadow-2xl w-full object-cover">
+      </div>
+      <div>
+        <h2 class="text-4xl font-semibold mb-6">Meet Rhina</h2>
+        <p class="text-lg leading-relaxed text-slate-700">
+          I’m Rhina — a single mom of two, former luxury real estate professional since 2017, and a dedicated problem-solver. 
+        </p>
+        <p class="mt-6 text-lg leading-relaxed text-slate-700">
+          After years in high-end real estate, I discovered my true calling: helping business owners close the gap between potential and profit. 
+          In 2025, even with zero transactions, I dove deep into the patterns that keep good businesses stuck — inconsistent leads, broken follow-up, and systems that don’t scale.
+        </p>
+        <p class="mt-6 text-lg leading-relaxed text-slate-700">
+          Today, I help home service businesses (HVAC, plumbing, roofing, electrical) with a proven 50/50 Hybrid System: smart AI for efficiency paired with real human connection, honest qualification, and growth strategies built on integrity and results.
+        </p>
+        <p class="mt-6 text-lg leading-relaxed text-slate-700 font-medium">
+          No hype. No false hope. Just honest listening, real value, and measurable results — the same principles I live by as a follower of Jesus Christ and teach my children.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 50/50 CARDS -->
+  <section class="max-w-6xl mx-auto px-6 py-20 bg-white">
     <h2 class="text-4xl font-semibold text-center mb-12">The 50/50 Hybrid System That Actually Works</h2>
     <div class="grid md:grid-cols-3 gap-8">
-      
-      <!-- Card 1 -->
-      <div class="bg-white p-8 rounded-3xl shadow-lg border border-slate-100 hover:border-emerald-300 transition-all">
+      <div class="bg-slate-50 p-8 rounded-3xl shadow">
         <div class="text-5xl mb-6">🤖</div>
         <h3 class="text-2xl font-semibold mb-3">50% AI Layer</h3>
-        <p class="text-slate-600">Smart lead sourcing, instant scoring, and automatic scheduling so no lead ever falls through the cracks.</p>
+        <p class="text-slate-600">Smart lead sourcing, scoring, and scheduling so no opportunity is lost.</p>
       </div>
-
-      <!-- Card 2 -->
-      <div class="bg-white p-8 rounded-3xl shadow-lg border border-slate-100 hover:border-emerald-300 transition-all">
+      <div class="bg-slate-50 p-8 rounded-3xl shadow">
         <div class="text-5xl mb-6">📞</div>
         <h3 class="text-2xl font-semibold mb-3">50% Human Layer</h3>
-        <p class="text-slate-600">I personally qualify every serious lead on the phone with honesty and care — the way only real experience can do it.</p>
+        <p class="text-slate-600">I personally qualify leads on the phone with honesty and care.</p>
       </div>
-
-      <!-- Card 3 -->
-      <div class="bg-white p-8 rounded-3xl shadow-lg border border-slate-100 hover:border-emerald-300 transition-all">
+      <div class="bg-slate-50 p-8 rounded-3xl shadow">
         <div class="text-5xl mb-6">📈</div>
         <h3 class="text-2xl font-semibold mb-3">Your Growth Layer</h3>
-        <p class="text-slate-600">I teach you proven scripts, systems, and closing methods so your business evolves and keeps profiting long-term.</p>
+        <p class="text-slate-600">Proven scripts and systems so your business evolves and profits long-term.</p>
       </div>
     </div>
   </section>
 
-  <!-- WHY SECTION -->
-  <section class="bg-slate-900 text-white py-20">
-    <div class="max-w-6xl mx-auto px-6 text-center">
-      <h2 class="text-4xl font-semibold mb-8">Why $1M+ Home Service Owners Trust This in 2026</h2>
-      <p class="max-w-3xl mx-auto text-xl text-slate-300">
-        Because most “AI lead systems” waste time and kill trust. My system delivers real buyers + real systems you can own. 
-        Built from 2017 real estate experience, organized problem-solving, and the same integrity I live by as a follower of Jesus Christ.
-      </p>
+  <!-- CALENDLY -->
+  <section id="calendly-section" class="bg-white py-20 border-t border-b">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-semibold text-center mb-4">Book Your Discovery Call</h2>
+      <p class="text-center text-slate-600 mb-12">Pick a time that works. No sales pitch — just an honest conversation.</p>
+      <div class="calendly-inline-widget" data-url="https://calendly.com/pinkeliteva" style="min-width:320px;height:700px;"></div>
     </div>
-  </section>
-
-  <!-- FINAL CTA -->
-  <section class="max-w-6xl mx-auto px-6 py-20 text-center">
-    <h2 class="text-4xl font-semibold mb-6">Ready for qualified appointments that actually close?</h2>
-    <button onclick="window.location.href='mailto:pinkeliteva@gmail.com?subject=I%20want%20qualified%20buyers'" 
-            class="bg-gradient-to-r from-cyan-400 to-emerald-400 text-slate-950 font-bold text-2xl px-12 py-6 rounded-3xl hover:scale-105 transition-all shadow-2xl">
-      Get Your First Qualified Buyers – Apply Here
-    </button>
-    <p class="mt-8 text-slate-500">Naples, FL • Honest • Results-Driven • Built for long-term success</p>
   </section>
 
   <!-- FOOTER -->
