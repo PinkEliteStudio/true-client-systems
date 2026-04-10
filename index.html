@@ -4,73 +4,105 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>True Client Systems | Honest Leads. Human Trust. Real Profit.</title>
+  <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    body {font-family: system-ui, -apple-system, sans-serif; margin:0; padding:0; background:#f8fafc; color:#0f172a; line-height:1.6;}
-    header {background: #0f172a; color:white; padding: 3rem 1rem; text-align:center;}
-    .container {max-width: 1100px; margin: 0 auto; padding: 2rem 1rem;}
-    h1 {font-size: 3rem; margin:0; font-weight:700;}
-    h2 {color:#0f172a; font-size:1.8rem; margin-bottom:1rem;}
-    .hero {background:#fff; padding:4rem 2rem; text-align:center; border-radius:16px; box-shadow:0 10px 30px rgba(15,23,42,0.1); margin-bottom:3rem;}
-    button {
-      background:#10b981; 
-      color:white; 
-      border:none; 
-      padding:1.25rem 2.5rem; 
-      font-size:1.3rem; 
-      font-weight:600; 
-      border-radius:12px; 
-      cursor:pointer; 
-      transition:all 0.3s ease;
-      box-shadow:0 4px 15px rgba(16,185,129,0.3);
-    }
-    button:hover {
-      background:#0f766e;
-      transform:translateY(-2px);
-      box-shadow:0 8px 25px rgba(16,185,129,0.4);
-    }
-    .section {margin:4rem 0;}
-    .section ol {font-size:1.25rem; line-height:1.9;}
-    footer {background:#0f172a; color:white; text-align:center; padding:2.5rem 1rem;}
-    footer p {margin:0.5rem 0;}
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    .neon-text { text-shadow: 0 0 15px rgb(34 211 238); }
+    .hero-bg { background: linear-gradient(rgba(15,23,42,0.85), rgba(15,23,42,0.85)), url('https://images.unsplash.com/photo-1557804506-669a67965ba0') center/cover no-repeat; }
   </style>
 </head>
-<body>
-  <header>
-    <h1>True Client Systems</h1>
-    <p style="font-size:1.5rem; margin-top:0.5rem;">Honest leads. Human trust. Systems that actually scale.</p>
+<body class="bg-slate-50 text-slate-900">
+
+  <!-- HEADER -->
+  <header class="bg-slate-950 text-white py-6">
+    <div class="max-w-6xl mx-auto px-6 flex items-center justify-between">
+      <!-- Logo -->
+      <div class="flex items-center gap-3">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="8" y="8" width="32" height="32" rx="8" fill="#22d3ee"/>
+          <path d="M16 24L22 30L32 18" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div>
+          <span class="text-3xl font-bold tracking-tight neon-text">True Client Systems</span>
+        </div>
+      </div>
+      <p class="text-emerald-400 font-medium">Naples, FL • Honest Lead Systems</p>
+    </div>
   </header>
 
-  <div class="container">
-    <div class="hero">
-      <h2>I help home service owners (HVAC, plumbing, roofing, electrical) get real qualified buyers — without AI frustration or empty promises.</h2>
-      <p style="font-size:1.35rem; max-width:820px; margin:2rem auto;">As a former real estate professional who values integrity above all, I combine smart AI with real human phone work and honest coaching. No hype. No stuck automations. Just buyers who are ready to spend — and owners who learn to close with truth.</p>
-      <button onclick="window.location.href='mailto:pinkeliteva@gmail.com?subject=I%20want%20qualified%20buyers'">Book a 15-Min Discovery Call (No Sales Pitch)</button>
-      <p style="margin-top:1.5rem; font-size:1rem; opacity:0.9;">I only work with owners who want real results and operate with integrity. If that’s you — let’s talk.</p>
+  <!-- HERO -->
+  <section class="hero-bg text-white py-24">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h1 class="text-5xl md:text-6xl font-bold leading-tight max-w-3xl mx-auto">
+        Real Qualified Buyers.<br>
+        <span class="text-emerald-400">Human Trust.</span> Systems That Scale.
+      </h1>
+      <p class="mt-6 text-xl max-w-2xl mx-auto">
+        I help home service owners (HVAC, plumbing, roofing, electrical) get ready-to-buy customers using 50/50 AI + real human follow-up — no frustration, no false hope.
+      </p>
+      <button onclick="window.location.href='mailto:pinkeliteva@gmail.com?subject=I%20want%20qualified%20buyers'" 
+              class="mt-10 bg-emerald-400 hover:bg-emerald-500 text-slate-950 font-semibold text-xl px-10 py-5 rounded-2xl transition-all shadow-xl shadow-emerald-500/30">
+        Book Your 15-Min Discovery Call
+      </button>
+      <p class="mt-6 text-sm opacity-90">No sales pitch • Only for owners who value integrity</p>
     </div>
+  </section>
 
-    <div class="section">
-      <h2>How the 50/50 Hybrid System Works</h2>
-      <ol>
-        <li><strong>AI Layer (50%)</strong> — Smart lead sourcing, scoring, and scheduling so nothing slips.</li>
-        <li><strong>Human Layer — YOU (50%)</strong> — I qualify every serious lead live on the phone with honesty and care.</li>
-        <li><strong>Your Growth Layer</strong> — I teach you my proven scripts, systems, and closing process so your business evolves and profits long-term.</li>
-      </ol>
-      <p><strong>Result:</strong> More booked jobs, higher close rates, and a business you actually own — not one that owns you.</p>
+  <!-- HOW IT WORKS - 3 CARDS -->
+  <section class="max-w-6xl mx-auto px-6 py-20">
+    <h2 class="text-4xl font-semibold text-center mb-12">The 50/50 Hybrid System That Actually Works</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      
+      <!-- Card 1 -->
+      <div class="bg-white p-8 rounded-3xl shadow-lg border border-slate-100 hover:border-emerald-300 transition-all">
+        <div class="text-5xl mb-6">🤖</div>
+        <h3 class="text-2xl font-semibold mb-3">50% AI Layer</h3>
+        <p class="text-slate-600">Smart lead sourcing, instant scoring, and automatic scheduling so no lead ever falls through the cracks.</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white p-8 rounded-3xl shadow-lg border border-slate-100 hover:border-emerald-300 transition-all">
+        <div class="text-5xl mb-6">📞</div>
+        <h3 class="text-2xl font-semibold mb-3">50% Human Layer</h3>
+        <p class="text-slate-600">I personally qualify every serious lead on the phone with honesty and care — the way only real experience can do it.</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white p-8 rounded-3xl shadow-lg border border-slate-100 hover:border-emerald-300 transition-all">
+        <div class="text-5xl mb-6">📈</div>
+        <h3 class="text-2xl font-semibold mb-3">Your Growth Layer</h3>
+        <p class="text-slate-600">I teach you proven scripts, systems, and closing methods so your business evolves and keeps profiting long-term.</p>
+      </div>
     </div>
+  </section>
 
-    <div class="section">
-      <h2>Why Home Service Owners in Naples & Southwest Florida Are Switching in 2026</h2>
-      <p>Because everyone wants real buyers, but most systems deliver frustration. My system delivers trust + profit. Built from 2017 real estate experience, organized systems, and a commitment to truth (the same values I teach my kids and live by as a follower of Jesus Christ).</p>
+  <!-- WHY SECTION -->
+  <section class="bg-slate-900 text-white py-20">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-semibold mb-8">Why $1M+ Home Service Owners Trust This in 2026</h2>
+      <p class="max-w-3xl mx-auto text-xl text-slate-300">
+        Because most “AI lead systems” waste time and kill trust. My system delivers real buyers + real systems you can own. 
+        Built from 2017 real estate experience, organized problem-solving, and the same integrity I live by as a follower of Jesus Christ.
+      </p>
     </div>
+  </section>
 
-    <div class="section" style="text-align:center;">
-      <button onclick="window.location.href='mailto:pinkeliteva@gmail.com?subject=I%20want%20qualified%20buyers'">Get Your First Qualified Appointments — Apply Here</button>
-    </div>
-  </div>
+  <!-- FINAL CTA -->
+  <section class="max-w-6xl mx-auto px-6 py-20 text-center">
+    <h2 class="text-4xl font-semibold mb-6">Ready for qualified appointments that actually close?</h2>
+    <button onclick="window.location.href='mailto:pinkeliteva@gmail.com?subject=I%20want%20qualified%20buyers'" 
+            class="bg-gradient-to-r from-cyan-400 to-emerald-400 text-slate-950 font-bold text-2xl px-12 py-6 rounded-3xl hover:scale-105 transition-all shadow-2xl">
+      Get Your First Qualified Buyers – Apply Here
+    </button>
+    <p class="mt-8 text-slate-500">Naples, FL • Honest • Results-Driven • Built for long-term success</p>
+  </section>
 
-  <footer>
-    <p>True Client Systems • Naples, FL • Built with integrity for business owners who value truth.</p>
-    <p>© 2026 • All rights reserved. No false hope. Ever.</p>
+  <!-- FOOTER -->
+  <footer class="bg-slate-950 text-white py-12 text-center">
+    <p class="text-lg">True Client Systems • Naples, Florida</p>
+    <p class="mt-2 text-slate-400">© 2026 • Integrity First • No false hope. Ever.</p>
   </footer>
+
 </body>
 </html>
